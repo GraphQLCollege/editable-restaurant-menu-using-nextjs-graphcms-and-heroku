@@ -1,0 +1,18 @@
+{
+  "name": "menu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next -p ${PORT-3000}",
+    "build": "next build",
+    "start": "next start -p ${PORT-3000}",
+    "heroku-postbuild": "next build"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
